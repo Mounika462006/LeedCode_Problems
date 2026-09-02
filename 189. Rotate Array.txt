@@ -5,7 +5,7 @@ class Solution {
         k = k % n;
 
         int[] result = new int[n];
-
+ 
         int index = 0;
         for (int i = n - k; i < n; i++) {
             result[index] = nums[i];
