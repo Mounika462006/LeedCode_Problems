@@ -16,7 +16,7 @@ class Solution {
 
         while (start < n) {
 
-            int end = start;
+            int end = start; 
 
             while (end + 1 < n &&
                    arr[end + 1][0] - arr[end][0] <= limit) {
