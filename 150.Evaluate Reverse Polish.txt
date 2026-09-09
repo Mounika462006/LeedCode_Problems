@@ -6,8 +6,7 @@ class Solution {
         for (String tok : tokens) {
 
             if (tok.equals("+") || tok.equals("-") ||
-                tok.equals("*") || tok.equals("/")) {
-
+                tok.equals("*") || tok.equals("/")) {
                 int data2 = stk.pop();
                 int data1 = stk.pop();
 
