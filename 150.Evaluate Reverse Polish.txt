@@ -11,8 +11,7 @@ class Solution {
                 int data2 = stk.pop();
                 int data1 = stk.pop();
 
-                switch (tok) {
-
+                switch (tok) {
                     case "+":
                         stk.push(data1 + data2);
                         break;
