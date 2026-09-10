@@ -4,13 +4,15 @@ class Solution {
         Stack<Integer> stk = new Stack<>();
 
         for (String tok : tokens) {
-
+ 
             if (tok.equals("+") || tok.equals("-") ||
-                tok.equals("*") || tok.equals("/")) {
+                tok.equals("*") || tok.equals("/")) {
+
                 int data2 = stk.pop();
                 int data1 = stk.pop();
 
-                switch (tok) {
+                switch (tok) {
+
                     case "+":
                         stk.push(data1 + data2);
                         break;
