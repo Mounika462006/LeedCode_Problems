@@ -4,7 +4,7 @@ class Solution {
         int n = nums.length;
         k = k % n;
 
-        int[] result = new int[n];
+        int[] result = new int[n]; 
  
         int index = 0;
         for (int i = n - k; i < n; i++) {
