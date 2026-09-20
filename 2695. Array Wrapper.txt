@@ -6,7 +6,7 @@ var ArrayWrapper = function(nums) {
     this.nums = nums;
 };
 
-/**
+/** 
  * @return {number}
  */
 ArrayWrapper.prototype.valueOf = function() {
