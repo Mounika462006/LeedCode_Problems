@@ -19,7 +19,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
                 return result;
             }
         } 
-    }
+    } 
 
     *returnSize = 0;
     return NULL;
