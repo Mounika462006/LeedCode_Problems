@@ -31,8 +31,7 @@ class Solution {
             Collections.sort(indices);
             for (int i = start; i <= end; i++) {
                 nums[indices.get(i - start)] = arr[i][0];
-            }
-
+            }
             start = end + 1;
         }
 
