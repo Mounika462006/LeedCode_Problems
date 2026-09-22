@@ -5,7 +5,7 @@ class Solution {
 
         for (int num : arr1) {
             freq[num]++;
-        }
+        } 
 
         int[] result = new int[arr1.length];
         int index = 0;
